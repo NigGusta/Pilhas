@@ -18,3 +18,21 @@ class Pilha:
     def pop(self):
         if not self.esta_vazia():
             return self.items.pop()
+
+pilha = Pilha()
+
+print(pilha.esta_vazia())
+
+pilha.push(1)
+pilha.push(2)
+pilha.push(3)
+
+print(pilha.top())
+
+print(pilha.tamanho())
+
+print(pilha.pop())
+
+print(pilha.top())
+
+print(pilha.tamanho()) 
